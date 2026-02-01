@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/amazon.css') }}">
+</head>
+<body>
+
+<div class="logo">
+    <span>amazon</span>
+</div>
+
+<div class="box">
+    <h2>Hello, {{ email }}</h2>
+    <p>You are logged in successfully.</p>
+
+    <a href="/logout">Logout</a>
+</div>
+
+</body>
+</html>
